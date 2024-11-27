@@ -1,8 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import GameModel from "../model/game_model.js";
 
-// let games = [];
-
 const POST_GAME = async (req, res) => {
     try {
         const newGame = {
